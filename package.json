@@ -1,0 +1,36 @@
+{
+  "name": "business-verification-telegram-bot",
+  "version": "1.0.0",
+  "description": "Business Verification and Customer Authentication Platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "admin": "node src/admin/server.js",
+    "setup": "node scripts/setup.js"
+  },
+  "dependencies": {
+    "telegraf": "4.15.6",
+    "express": "4.18.2",
+    "better-sqlite3": "9.4.3",
+    "axios": "1.6.5",
+    "dotenv": "16.4.1",
+    "winston": "3.11.0",
+    "express-session": "1.17.3",
+    "bcryptjs": "2.4.3",
+    "node-cron": "3.0.3",
+    "helmet": "7.1.0",
+    "cors": "2.8.5",
+    "express-rate-limit": "7.1.5",
+    "morgan": "1.10.0",
+    "uuid": "9.0.0",
+    "moment": "2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
